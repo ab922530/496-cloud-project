@@ -7,11 +7,9 @@ Project Plan:
  
 Repository: 
 https://github.com/ab922530/496-cloud-project.git
+
 Links:
-https://github.com/ab922530/496-cloud-project.git
 https://gitlab.flux.utah.edu/johnsond/openstack-build-ubuntu
 https://docs.openstack.org/install-guide/overview.html
 https://docs.openstack.org/python-openstackclient/latest/cli/index.html
 https://docs.docker.com/
-
-
