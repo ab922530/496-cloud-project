@@ -1,3 +1,4 @@
+![OpenStackImg](https://github.com/ab922530/496-cloud-project/blob/master/openstack-docker.png)
 # 496-cloud-project
 Implement and Deployment for Openstack Docker
 
