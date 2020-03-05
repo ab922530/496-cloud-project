@@ -3,7 +3,12 @@ Project Plan:
  2. Remove unnecessary Bash scripts from Default Openstack Profile
  3. Begin local build of our Openstack profile
  4. Modify Openstack build to support an additional compute node type
+ 5. Modify new node to support docker virtualization
+ 
+Repository: 
+https://github.com/ab922530/496-cloud-project.git
 Links:
+https://github.com/ab922530/496-cloud-project.git
 https://gitlab.flux.utah.edu/johnsond/openstack-build-ubuntu
 https://docs.openstack.org/install-guide/overview.html
 https://docs.openstack.org/python-openstackclient/latest/cli/index.html
