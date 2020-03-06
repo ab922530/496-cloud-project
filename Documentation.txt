@@ -1,9 +1,19 @@
+Implementation and Deployment:
+ - The CloudLab Openstack default profile contains set up of X compute nodes to to support KVM-based VMs without support for Docker
+ - Project Primary Task:
+   a) Augment the CloudLab Openstack default profile to support the inclusion of one additional compute node type that provides support for Docker virtualization. 
+ - Project Subtasks:
+   a) Understand the installation scripts provided in CloudLab Openstack default profile.
+   b) Able to enable Docker support manually on an instantiation of this profile. 
+   c) Able to convert the installation steps into automated scripts embedded inside the CloudLab Openstack default profile.
+
 Project Plan:
  1. Read and understand default cloublab openstack profile
  2. Remove unnecessary Bash scripts from Default Openstack Profile
  3. Begin local build of our Openstack profile
  4. Modify Openstack build to support an additional compute node type
  5. Modify new node to support docker virtualization
+ 
  
 Repository: 
 https://github.com/ab922530/496-cloud-project.git
