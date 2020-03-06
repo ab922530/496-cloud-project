@@ -7,6 +7,12 @@ Creation of an OpenStack profile that supports and deploys Docker virtualization
 This project will serve as an ease to launch Docker containers via OpenStack in CloudLab.
 The installation and usage of this project for educational purposes only.
 
+## Project Subtasks:
+- Understanding the installation scripts provided in CloudLab Openstack default profile.
+- Ability to enable Docker support manually on an instantiation of this profile. 
+- Ability to convert the installation steps into automated scripts embedded inside the CloudLab 
+- Openstack default profile.
+
 ## Contributors
 - Endri Koti
 - Akash Kumar
