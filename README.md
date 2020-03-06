@@ -3,7 +3,7 @@
 <img src="https://github.com/ab922530/496-cloud-project/blob/master/images/openstack-docker.png" width="519" height="266"><img src="https://github.com/ab922530/496-cloud-project/blob/master/images/cloudlab-image.png" width="337" height="59">
 
 ## About
-Creation of an OpenStack profile that supports and deploys Docker virtualization in a host server.  
+Creation of an OpenStack profile that supports the inclusion of one additional compute node type that provides support for Docker virtualization in a host server.
 This project will serve as an ease to launch Docker containers via OpenStack in CloudLab.
 The installation and usage of this project for educational purposes only.
 
