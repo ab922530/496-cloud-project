@@ -1,0 +1,21 @@
+--- /usr/lib/python2.7/dist-packages/nova/virt/libvirt/driver.py.orig	2018-05-17 14:32:56.000000000 -0600
++++ /usr/lib/python2.7/dist-packages/nova/virt/libvirt/driver.py	2018-07-03 17:59:48.709498189 -0600
+@@ -4602,7 +4602,8 @@
+ 
+         if (virt_type not in ("lxc", "uml", "parallels", "xen") or
+                 (virt_type == "xen" and guest.os_type == fields.VMMode.HVM)):
+-            guest.features.append(vconfig.LibvirtConfigGuestFeatureACPI())
++            if caps.host.cpu.arch != 'aarch64' or guest.os_loader_type == "pflash":
++                guest.features.append(vconfig.LibvirtConfigGuestFeatureACPI())
+             guest.features.append(vconfig.LibvirtConfigGuestFeatureAPIC())
+ 
+         if (virt_type in ("qemu", "kvm") and
+@@ -4820,7 +4821,7 @@
+             hw_firmware_type = image_meta.properties.get('hw_firmware_type')
+             if caps.host.cpu.arch == fields.Architecture.AARCH64:
+                 if not hw_firmware_type:
+-                    hw_firmware_type = fields.FirmwareType.UEFI
++                    hw_firmware_type = fields.FirmwareType.BIOS
+             if hw_firmware_type == fields.FirmwareType.UEFI:
+                 if self._has_uefi_support():
+                     global uefi_logged
