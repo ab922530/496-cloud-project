@@ -1,0 +1,19 @@
+--- /usr/lib/python2.7/dist-packages/manila/network/neutron/api.py.orig	2018-02-28 04:27:48.000000000 -0700
++++ /usr/lib/python2.7/dist-packages/manila/network/neutron/api.py	2018-06-21 10:56:50.807123424 -0600
+@@ -172,14 +172,14 @@
+ 
+     def create_port(self, tenant_id, network_id, host_id=None, subnet_id=None,
+                     fixed_ip=None, device_owner=None, device_id=None,
+-                    mac_address=None, port_security_enabled=True,
++                    mac_address=None, port_security_enabled=False,
+                     security_group_ids=None, dhcp_opts=None, **kwargs):
+         try:
+             port_req_body = {'port': {}}
+             port_req_body['port']['network_id'] = network_id
+             port_req_body['port']['admin_state_up'] = True
+             port_req_body['port']['tenant_id'] = tenant_id
+-            if not port_security_enabled:
++            if port_security_enabled:
+                 port_req_body['port']['port_security_enabled'] = (
+                     port_security_enabled)
+             elif security_group_ids:

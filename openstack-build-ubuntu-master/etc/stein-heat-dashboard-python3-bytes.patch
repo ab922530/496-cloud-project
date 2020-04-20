@@ -1,0 +1,11 @@
+--- /usr/lib/python3/dist-packages/heat_dashboard/content/stacks/forms.py~	2019-03-20 09:37:53.000000000 -0600
++++ /usr/lib/python3/dist-packages/heat_dashboard/content/stacks/forms.py	2019-06-12 12:57:26.893245322 -0600
+@@ -204,7 +204,7 @@
+             LOG.info('got upload %s', log_template_name)
+ 
+             tpl = files[upload_str].read()
+-            if tpl.startswith('{'):
++            if tpl.startswith(six.b('{')):
+                 try:
+                     json.loads(tpl)
+                 except Exception as e:
