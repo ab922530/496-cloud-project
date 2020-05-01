@@ -15,7 +15,7 @@ The installation and usage of this project is for educational purposes only.
 5. Navigate to your new OpenStack profile. Scroll all the way to the bottom of the webpage and *Instantiate* the master branch.
 6. Click *Next* twice. Select your project if it has not already been selected. Select a cluster. Click *Next*. Click *Finish*.
 7. Wait for 10 minutes for your OpenStack experiment to get created. Once it is created, you will see two nodes in the *List View* section: the controller node (ctl) and the compute node (cp-1). SSH into the compute node and run `docker version` to check that Docker is working.
-8. :tada: Congratulations! :tada: :clap: :clap: clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
+8. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
 ## Made with :heart: by
 - Austin Bramley
