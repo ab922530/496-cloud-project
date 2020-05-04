@@ -23,6 +23,14 @@ The installation and usage of this project is for educational purposes only.
 7. Wait for 10 minutes for your OpenStack experiment to get created. Once it is created, you will see two nodes in the *List View* section: the controller node (ctl) and the compute node (cp-1). SSH into the compute node and run `docker version` to check that Docker is working.
 8. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
+## Contributors
+
+## FAQ
+
+## Support 
+
+## License
+
 ## References :page_with_curl:
 - [CloudLab](https://www.cloudlab.us)
 - [CloudLab OpenStack default profile](https://gitlab.flux.utah.edu/johnsond/openstack-build-ubuntu)
@@ -42,11 +50,3 @@ The installation and usage of this project is for educational purposes only.
 - [OpenStack Forums](https://ask.openstack.org/)
 
 Made with :heart: by Austin Bramley, Akash Kumar, Endri Koti, Simeon McGraw & Andrew Valenci
-
-## Contributors
-
-## FAQ
-
-## Support 
-
-## License
