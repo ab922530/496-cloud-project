@@ -3,6 +3,14 @@
 <img src="https://github.com/ab922530/496-cloud-project/blob/master/images/openstack-docker.png" width="519" height="266"><img src="https://github.com/ab922530/496-cloud-project/blob/master/images/cloudlab-image.png" width="337" height="59">
 
 ## Table of Contents
+About
+Deployment Instructions
+Step-By-Step Manual Installations (Optional)
+Contributors
+FAQ
+Support
+License
+References
 
 ## About :whale:
 This repo is for the creation of an OpenStack profile in CloudLab that supports the inclusion of one additional compute node type that provides support for Docker virtualization in a host server.
@@ -45,6 +53,12 @@ Endri Koti -  https://github.com/EndriKCyber
 Andrew Valenci  
 
 ## FAQ
+Q:  
+What kinds of modifications were necessary in order for a proper deployment?  
+A:  
+The types of changes we needed to make to the configuration files were pretty minimal, but one of the most common issues was in the URLs. Our controller node was referred to http://controller:5000 when in fact our controller node was actually called http://ctl:5000.  
+The same error was found in compute vs cp for our compute node.  
+We realized these errors were needed when we could not properly deploy the app container service on the compute node and were receiving networking errors.  
 
 ## Support 
 Thank to Dr. Linh Ngo for his expertise and support on this project
