@@ -10,6 +10,9 @@ This project will serve as an ease to launch Docker containers via OpenStack in 
 The installation and usage of this project is for educational purposes only.
 
 ## Prerequisites
+Access to a cloud computing platform such as Cloudlab or Google Cloud.
+https://cloud.google.com/
+https://www.cloudlab.us/
 
 ## Deployment Instructions :hammer:
 1. At the top of this git repo, click the green *Clone or download* button and copy the git repo link.
@@ -24,14 +27,30 @@ The installation and usage of this project is for educational purposes only.
 10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
 ## Step-By-Step Manual Installations (Optional)
+See the following links for manual Installation of Zun
+Controller Node:
+https://docs.openstack.org/zun/latest/install/controller-install.html
+Compute Node: 
+https://docs.openstack.org/zun/latest/install/compute-install.html
+Verify Operation:
+https://docs.openstack.org/zun/latest/install/verify.html
+Launch a container (without the use of Horizon dashboard):
+https://docs.openstack.org/zun/latest/install/launch-container.html
 
 ## Contributors
+Austin Bramley - https://github.com/ab922530
+Akash Kumar - https://github.com/KumarUniverse 
+Simeon McGraw - https://github.com/simeonjmcg
+Endri Koti -
+Andrew Valenci
 
 ## FAQ
 
 ## Support 
+Thank to Dr. Linh Ngo for his expertise and support on this project
 
 ## License
+GNU General Public License v3.0
 
 ## References :page_with_curl:
 - [CloudLab](https://www.cloudlab.us)
