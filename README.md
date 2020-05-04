@@ -3,7 +3,6 @@
 <img src="https://github.com/ab922530/496-cloud-project/blob/master/images/openstack-docker.png" width="519" height="266"><img src="https://github.com/ab922530/496-cloud-project/blob/master/images/cloudlab-image.png" width="337" height="59">
 
 ## Table of Contents
-- [CSC 496 Cloud Computing - West Chester Universiy](#csc-496-cloud-computing---west-chester-universiy)
   * [About :whale:](#about--whale-)
   * [Prerequisites](#prerequisites)
   * [Deployment Instructions :hammer:](#deployment-instructions--hammer-)
