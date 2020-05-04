@@ -11,8 +11,6 @@ The installation and usage of this project is for educational purposes only.
 
 ## Prerequisites
 
-## Step-By-Step Manual Installations
-
 ## Deployment Instructions :hammer:
 1. At the top of this git repo, click the green *Clone or download* button and copy the git repo link.
 2. In your [CloudLab](https://www.cloudlab.us/) homepage, click on the *Experiments* menu in the top blue menu bar and select *Create Experiment Profile*.
@@ -24,6 +22,8 @@ The installation and usage of this project is for educational purposes only.
 8. Once you verify that docker is running you can access to your horizon dashboard through cloudlab by nagivating to your experiment page and expanding "Profile Instructions", there you will find your password and link to your dashboard. Once you access your dashboard you will see a tab on the side labeled "Containters", enter this section and click create container. 
 9. After pressing create containter add the name of your container as well as its container name or ID. Click Next and specify number of virtual cpus and amount of memory allocated to your container. Click next one more time and then click create.
 10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
+
+## Step-By-Step Manual Installations (Optional)
 
 ## Contributors
 
