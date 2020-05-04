@@ -10,9 +10,9 @@ This project will serve as an ease to launch Docker containers via OpenStack in 
 The installation and usage of this project is for educational purposes only.
 
 ## Prerequisites
-Access to a cloud computing platform such as Cloudlab or Google Cloud.
-https://cloud.google.com/
-https://www.cloudlab.us/
+Access to a cloud computing platform such as Cloudlab or Google Cloud.  
+https://cloud.google.com/  
+https://www.cloudlab.us/  
 
 ## Deployment Instructions :hammer:
 1. At the top of this git repo, click the green *Clone or download* button and copy the git repo link.
@@ -21,28 +21,28 @@ https://www.cloudlab.us/
 4. Once the page finishes loading, click *Create* to create your OpenStack profile.
 5. Navigate to your new OpenStack profile. Scroll all the way to the bottom of the webpage and *Instantiate* the master branch.
 6. Click *Next* twice. Select your project if it has not already been selected. Select a cluster. Click *Next*. Click *Finish*.
-7. Wait for 10 minutes for your OpenStack experiment to get created. Once it is created, you will see two nodes in the *List View* section: the controller node (ctl) and the compute node (cp-1). SSH into the compute node and run `docker version` to check that Docker is working.
-8. Once you verify that docker is running you can access to your horizon dashboard through cloudlab by nagivating to your experiment page and expanding "Profile Instructions", there you will find your password and link to your dashboard. Once you access your dashboard you will see a tab on the side labeled "Containters", enter this section and click create container. 
-9. After pressing create containter add the name of your container as well as its container name or ID. Click Next and specify number of virtual cpus and amount of memory allocated to your container. Click next one more time and then click create.
+7. Wait for 10 minutes for your OpenStack experiment to get created. Once it is created, you will see two nodes in the *List View* section: the controller node (ctl) and the compute node (cp-1). SSH into the compute node and run `docker version` to check that Docker is working.  
+8. Once you verify that docker is running you can access to your horizon dashboard through cloudlab by nagivating to your experiment page and expanding "Profile Instructions", there you will find your password and link to your dashboard. Once you access your dashboard you will see a tab on the side labeled "Containters", enter this section and click create container.   
+9. After pressing create containter add the name of your container as well as its container name or ID. Click Next and specify number of virtual cpus and amount of memory allocated to your container. Click next one more time and then click create.  
 10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
 ## Step-By-Step Manual Installations (Optional)
-See the following links for manual Installation of Zun
-Controller Node:
-https://docs.openstack.org/zun/latest/install/controller-install.html
-Compute Node: 
-https://docs.openstack.org/zun/latest/install/compute-install.html
-Verify Operation:
-https://docs.openstack.org/zun/latest/install/verify.html
-Launch a container (without the use of Horizon dashboard):
-https://docs.openstack.org/zun/latest/install/launch-container.html
+See the following links for manual Installation of Zun  
+Controller Node:  
+https://docs.openstack.org/zun/latest/install/controller-install.html  
+Compute Node:   
+https://docs.openstack.org/zun/latest/install/compute-install.html  
+Verify Operation:  
+https://docs.openstack.org/zun/latest/install/verify.html  
+Launch a container (without the use of Horizon dashboard):  
+https://docs.openstack.org/zun/latest/install/launch-container.html  
 
 ## Contributors
-Austin Bramley - https://github.com/ab922530
-Akash Kumar - https://github.com/KumarUniverse 
-Simeon McGraw - https://github.com/simeonjmcg
-Endri Koti -
-Andrew Valenci
+Austin Bramley - https://github.com/ab922530  
+Akash Kumar - https://github.com/KumarUniverse  
+Simeon McGraw - https://github.com/simeonjmcg  
+Endri Koti -  
+Andrew Valenci  
 
 ## FAQ
 
