@@ -2,10 +2,16 @@
 
 <img src="https://github.com/ab922530/496-cloud-project/blob/master/images/openstack-docker.png" width="519" height="266"><img src="https://github.com/ab922530/496-cloud-project/blob/master/images/cloudlab-image.png" width="337" height="59">
 
+## Table of Contents
+
 ## About :whale:
 This repo is for the creation of an OpenStack profile in CloudLab that supports the inclusion of one additional compute node type that provides support for Docker virtualization in a host server.
 This project will serve as an ease to launch Docker containers via OpenStack in CloudLab.
 The installation and usage of this project is for educational purposes only.
+
+## Prerequisites
+
+## Step-By-Step Manual Installations
 
 ## Deployment Instructions :hammer:
 1. At the top of this git repo, click the green *Clone or download* button and copy the git repo link.
@@ -36,3 +42,11 @@ The installation and usage of this project is for educational purposes only.
 - [OpenStack Forums](https://ask.openstack.org/)
 
 Made with :heart: by Austin Bramley, Akash Kumar, Endri Koti, Simeon McGraw & Andrew Valenci
+
+## Contributors
+
+## FAQ
+
+## Support 
+
+## License
