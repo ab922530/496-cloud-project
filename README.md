@@ -3,14 +3,17 @@
 <img src="https://github.com/ab922530/496-cloud-project/blob/master/images/openstack-docker.png" width="519" height="266"><img src="https://github.com/ab922530/496-cloud-project/blob/master/images/cloudlab-image.png" width="337" height="59">
 
 ## Table of Contents
-About
-Deployment Instructions
-Step-By-Step Manual Installations (Optional)
-Contributors
-FAQ
-Support
-License
-References
+- [CSC 496 Cloud Computing - West Chester Universiy](#csc-496-cloud-computing---west-chester-universiy)
+  * [Table of Contents](#table-of-contents)
+  * [About :whale:](#about--whale-)
+  * [Prerequisites](#prerequisites)
+  * [Deployment Instructions :hammer:](#deployment-instructions--hammer-)
+  * [Step-By-Step Manual Installations (Optional)](#step-by-step-manual-installations--optional-)
+  * [Contributors](#contributors)
+  * [FAQ](#faq)
+  * [Support](#support)
+  * [License](#license)
+  * [References :page_with_curl:](#references--page-with-curl-)
 
 ## About :whale:
 This repo is for the creation of an OpenStack profile in CloudLab that supports the inclusion of one additional compute node type that provides support for Docker virtualization in a host server.
