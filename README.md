@@ -41,7 +41,7 @@ https://docs.openstack.org/zun/latest/install/launch-container.html
 Austin Bramley - https://github.com/ab922530  
 Akash Kumar - https://github.com/KumarUniverse  
 Simeon McGraw - https://github.com/simeonjmcg  
-Endri Koti -  
+Endri Koti -  https://github.com/EndriKCyber  
 Andrew Valenci  
 
 ## FAQ
@@ -50,7 +50,7 @@ Andrew Valenci
 Thank to Dr. Linh Ngo for his expertise and support on this project
 
 ## License
-GNU General Public License v3.0
+GNU General Public License v2.0
 
 ## References :page_with_curl:
 - [CloudLab](https://www.cloudlab.us)
