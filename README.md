@@ -4,7 +4,6 @@
 
 ## Table of Contents
 - [CSC 496 Cloud Computing - West Chester Universiy](#csc-496-cloud-computing---west-chester-universiy)
-  * [Table of Contents](#table-of-contents)
   * [About :whale:](#about--whale-)
   * [Prerequisites](#prerequisites)
   * [Deployment Instructions :hammer:](#deployment-instructions--hammer-)
