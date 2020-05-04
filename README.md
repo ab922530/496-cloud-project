@@ -51,7 +51,7 @@ Austin Bramley - https://github.com/ab922530
 Akash Kumar - https://github.com/KumarUniverse  
 Simeon McGraw - https://github.com/simeonjmcg  
 Endri Koti -  https://github.com/EndriKCyber  
-Andrew Valenci  
+Andrew Valenci - https://github.com/avalenci
 
 ## FAQ
 Q:  
