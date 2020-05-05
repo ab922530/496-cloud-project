@@ -7,10 +7,10 @@
   * [Prerequisites](#prerequisites)
   * [Deployment Instructions :hammer:](#deployment-instructions--hammer-)
   * [Step-By-Step Manual Installations (Optional)](#step-by-step-manual-installations--optional-)
-  * [Contributors](#contributors)
-  * [FAQ](#faq)
-  * [Support](#support)
-  * [License](#license)
+  * [Contributors :people_holding_hands:](#contributors--people-holding-hands-)
+  * [FAQ :question:](#faq--question-)
+  * [Support :pray:](#support--pray-)
+  * [License :balance_scale:](#license--balance-scale-)
   * [References :page_with_curl:](#references--page-with-curl-)
 
 ## About :whale:
@@ -46,14 +46,14 @@ https://docs.openstack.org/zun/latest/install/verify.html
 Launch a container (without the use of Horizon dashboard):  
 https://docs.openstack.org/zun/latest/install/launch-container.html  
 
-## Contributors
+## Contributors :people_holding_hands:
 Austin Bramley - https://github.com/ab922530  
 Akash Kumar - https://github.com/KumarUniverse  
 Simeon McGraw - https://github.com/simeonjmcg  
 Endri Koti -  https://github.com/EndriKCyber  
 Andrew Valenci - https://github.com/avalenci
 
-## FAQ
+## FAQ :question:
 **Q1:**  
 What kinds of modifications were necessary in order for a proper deployment?  
 **A:**  
@@ -73,10 +73,10 @@ Is there anything that you would change if you did it again? Also, how did you f
 **A:**
 *Andrew Valenci*: If we had to do it again, we would probably choose to setup our OpenStack configuration in Google Cloud rather than CloudLab. When we first started with this project, we knew we had to add one additional compute node to the default OpenStack profile that provides support for Docker virtualization, but we did not have a plan as to how to accomplish this. Then, Dr. Ngo proposed the use of Zun, an OpenStack container service. Zun provides API endpoints for Openstack to integrate with other OpenStack Services, such as Keystone, Neutron and Glance. With Zun, we were able to give OpenStack the ability to manage application containers such as Docker. After doing some research, we realized that before installing Zun, we had to install Etcd in the controller node (to store data), Docker in the compute node, and Kuryr in both nodes (to function as a bridge between container frameworks and OpenStack).
 
-## Support 
+## Support :pray:
 Thanks to [Dr. Linh Ngo](https://www.cs.wcupa.edu/lngo/about/) for his expertise and support on this project.
 
-## License
+## License :balance_scale:
 GNU General Public License v2.0
 
 ## References :page_with_curl:
