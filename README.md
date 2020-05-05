@@ -4,9 +4,9 @@
 
 ## Table of Contents
   * [About :whale:](#about-whale)
-  * [Prerequisites](#prerequisites)
+  * [Prerequisites :cloud:](#prerequisites-cloud)
   * [Deployment Instructions :hammer:](#deployment-instructions-hammer)
-  * [Step-By-Step Manual Installations (Optional)](#step-by-step-manual-installations-optional)
+  * [Step-By-Step Manual Installations (Optional) :hammer_and_wrench:](#step-by-step-manual-installations-optional-hammer_and_wrench)
   * [Contributors :people_holding_hands:](#contributors-people_holding_hands)
   * [FAQ :question:](#faq-question)
   * [Support :pray:](#support-pray)
@@ -18,10 +18,10 @@ This repo is for the creation of an OpenStack profile in CloudLab that supports 
 This project will serve as an ease to launch Docker containers via OpenStack in CloudLab.
 The installation and usage of this project is for educational purposes only.
 
-## Prerequisites
+## Prerequisites :cloud:
 Access to a cloud computing platform such as Cloudlab or Google Cloud.  
-https://cloud.google.com/  
-https://www.cloudlab.us/  
+- https://www.cloudlab.us/
+- https://cloud.google.com/
 
 ## Deployment Instructions :hammer:
 1. At the top of this git repo, click the green *Clone or download* button and copy the git repo link.
@@ -35,7 +35,7 @@ https://www.cloudlab.us/
 9. After that, add the name of your container as well as its container name or ID. Click *Next* and specify the number of virtual CPUs and amount of memory you want allocated to your container. Click *Next* one more time and then click *Create*.  
 10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own cloud computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
-## Step-By-Step Manual Installations (Optional)
+## Step-By-Step Manual Installations (Optional) :hammer_and_wrench:
 See the following links for manual Installation of Zun  
 Controller Node:  
 https://docs.openstack.org/zun/latest/install/controller-install.html  
@@ -47,11 +47,11 @@ Launch a container (without the use of Horizon dashboard):
 https://docs.openstack.org/zun/latest/install/launch-container.html  
 
 ## Contributors :people_holding_hands:
-Austin Bramley - https://github.com/ab922530  
-Akash Kumar - https://github.com/KumarUniverse  
-Simeon McGraw - https://github.com/simeonjmcg  
-Endri Koti -  https://github.com/EndriKCyber  
-Andrew Valenci - https://github.com/avalenci
+- Austin Bramley - https://github.com/ab922530  
+- Akash Kumar - https://github.com/KumarUniverse  
+- Endri Koti -  https://github.com/EndriKCyber  
+- Simeon McGraw - https://github.com/simeonjmcg  
+- Andrew Valenci - https://github.com/avalenci
 
 ## FAQ :question:
 **Q1:**  
@@ -70,7 +70,7 @@ In your opinion, what is the most valuable skill you learned from doing this?
 
 **Q3:**  
 Is there anything that you would change if you did it again? Also, how did you figure out where to go and where to start? This seems really interesting.  
-**A:**
+**A:**  
 *Andrew Valenci*: If we had to do it again, we would probably choose to setup our OpenStack configuration in Google Cloud rather than CloudLab. When we first started with this project, we knew we had to add one additional compute node to the default OpenStack profile that provides support for Docker virtualization, but we did not have a plan as to how to accomplish this. Then, Dr. Ngo proposed the use of Zun, an OpenStack container service. Zun provides API endpoints for Openstack to integrate with other OpenStack Services, such as Keystone, Neutron and Glance. With Zun, we were able to give OpenStack the ability to manage application containers such as Docker. After doing some research, we realized that before installing Zun, we had to install Etcd in the controller node (to store data), Docker in the compute node, and Kuryr in both nodes (to function as a bridge between container frameworks and OpenStack).
 
 ## Support :pray:
