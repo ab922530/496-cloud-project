@@ -31,9 +31,9 @@ https://www.cloudlab.us/
 5. Navigate to your new OpenStack profile. Scroll all the way to the bottom of the webpage and *Instantiate* the master branch.
 6. Click *Next* twice. Select your project if it has not already been selected. Select a cluster. Click *Next*. Click *Finish*.
 7. Wait for 10 minutes for your OpenStack experiment to get created. Once it is created, you will see two nodes in the *List View* section: the controller node (ctl) and the compute node (cp-1). SSH into the compute node and run `docker version` to check that Docker is working.  
-8. Once you verify that docker is running you can access to your horizon dashboard through cloudlab by nagivating to your experiment page and expanding "Profile Instructions", there you will find your password and link to your dashboard. Once you access your dashboard you will see a tab on the side labeled "Containters", enter this section and click create container.   
-9. After pressing create containter add the name of your container as well as its container name or ID. Click Next and specify number of virtual cpus and amount of memory allocated to your container. Click next one more time and then click create.  
-10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
+8. Once you verify that Docker is running, you can access your Horizon dashboard through cloudlab by navigating to your experiment page and expanding *Profile Instructions*. There you will find your password and link to your dashboard. Once you access your dashboard, you will see a tab on the side labeled *Containers*. Enter this section and click *Create Container*.   
+9. After that, add the name of your container as well as its container name or ID. Click *Next* and specify the number of virtual CPUs and amount of memory you want allocated to your container. Click *Next* one more time and then click *Create*.  
+10. :tada: Congratulations! :tada: :clap: :clap: :clap: You can now deploy your own cloud computing services in OpenStack and take advantage of the powerful containerization that Docker has to offer.
 
 ## Step-By-Step Manual Installations (Optional)
 See the following links for manual Installation of Zun  
@@ -54,15 +54,27 @@ Endri Koti -  https://github.com/EndriKCyber
 Andrew Valenci - https://github.com/avalenci
 
 ## FAQ
-Q:  
+**Q1:**  
 What kinds of modifications were necessary in order for a proper deployment?  
-A:  
+**A:**  
 The types of changes we needed to make to the configuration files were pretty minimal, but one of the most common issues was in the URLs. Our controller node was referred to http://controller:5000 when in fact our controller node was actually called http://ctl:5000.  
 The same error was found in compute vs cp for our compute node.  
-We realized these errors were needed when we could not properly deploy the app container service on the compute node and were receiving networking errors.  
+We realized these errors were needed when we could not properly deploy the app container service on the compute node and were receiving networking errors.
+
+**Q2:**  
+In your opinion, what is the most valuable skill you learned from doing this?  
+**A:**  
+*Akash Kumar*: Hello! The most valuable skill we learned from doing this project is the ability to research project requirements and errors to find the simplest solution that works. If you don't know what the problem is, then it can be quite hard or even impossible to fix it. So being able to identify the problem in the first place can prove to be a great help.  
+*Austin Bramley*: I think the most valuable skill I learned during this project was how to write a bash script. I think that it is a very valuable skill to have and I'm glad this project gave me an opportunity to work with them.  
+*Endri Koti*: How to pay attention and not to mismatch directories in linux!  
+
+**Q3:**  
+Is there anything that you would change if you did it again? Also, how did you figure out where to go and where to start? This seems really interesting.  
+**A:**
+*Andrew Valenci*: If we had to do it again, we would probably choose to setup our OpenStack configuration in Google Cloud rather than CloudLab. When we first started with this project, we knew we had to add one additional compute node to the default OpenStack profile that provides support for Docker virtualization, but we did not have a plan as to how to accomplish this. Then, Dr. Ngo proposed the use of Zun, an OpenStack container service. Zun provides API endpoints for Openstack to integrate with other OpenStack Services, such as Keystone, Neutron and Glance. With Zun, we were able to give OpenStack the ability to manage application containers such as Docker. After doing some research, we realized that before installing Zun, we had to install Etcd in the controller node (to store data), Docker in the compute node, and Kuryr in both nodes (to function as a bridge between container frameworks and OpenStack).
 
 ## Support 
-Thank to Dr. Linh Ngo for his expertise and support on this project
+Thanks to [Dr. Linh Ngo](https://www.cs.wcupa.edu/lngo/about/) for his expertise and support on this project.
 
 ## License
 GNU General Public License v2.0
